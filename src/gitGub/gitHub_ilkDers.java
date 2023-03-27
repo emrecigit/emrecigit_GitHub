@@ -21,14 +21,14 @@ public class gitHub_ilkDers {
     İlk Kurulum sırası
     2-Bilgisayarda git i initalize edip tanıştırma yapılır bir git dosyası olusturur 1 kez yapılır:git init
     3-Repository e oluşan dosyayı ve yeni değişiklikleri eklemek icin (. hersey anlamına gelir ):git add .
-
     4-Eklenen dosyaı local repository'e version olarak yüklemek icin:git commit -m"2303272357"
     5-commit ten sonra yapılacak islem:git branch -M main
     6-:git remote add origin https://github.com/emrecigit/emrecigit_GitHubTeam113
     7-:git push -u origin main
-    Sonraki işlemler de 6-5-7 diye ilerler
+    Sonraki işlemler de 3-4-7 diye ilerler
+    error : failed to push some refs to hatası alınırsa:git push -f origin master
      */
-      //======================================================================
+     //======================================================================
 
 
 
