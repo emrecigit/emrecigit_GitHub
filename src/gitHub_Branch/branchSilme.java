@@ -1,10 +1,11 @@
-package gitHub;
+package gitHub_Branch;
 
 import java.util.Scanner;
 
-public class gitHub_ilkDers {
-    public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
+public class branchSilme {
+
+        public static void main(String[] args) {
+            Scanner scan=new Scanner(System.in);
    /*
    Bilgisayrda cmd komut işlemleri
    Bilgisayarda git varsa versionu kontrol etme :git --verison
@@ -15,7 +16,7 @@ public class gitHub_ilkDers {
    system :tum kullanıcılar ve tum repolar icin
    local  :sadecd o an kullanılan repo icin tanımlar.
     */
-    //======================================================================
+            //======================================================================
     /*
     1-Terminal ekranını temizlemek için:clear
     İlk Kurulum sırası
@@ -27,7 +28,7 @@ public class gitHub_ilkDers {
     7-:git push -u origin main
     Sonraki işlemler de 3-4-7 diye ilerler
     */
-    //=================================================================================
+            //=================================================================================
     /*
     git status:durumu görür.
     error : failed to push some refs to hatası alınırsa:git push -f origin master
@@ -36,7 +37,7 @@ public class gitHub_ilkDers {
     git checkout 012458585 log daki herahngi bir degere döner (onceki commit)
     git revert 012458585 yazarsak bu son durum kalıcı olur sonrasında da wq yazlıp enter a basılır
      */
-     //======================================================================
+            //======================================================================
      /*
       branch listesi görmek icin:git branch
       yeni branch olustyrmak icin:git branch branch ismi
@@ -47,7 +48,6 @@ public class gitHub_ilkDers {
       branch ile işimiz bitince local'in remote'u için:git branch -dr branch ismi veya origin/branc ismi
       branch ile işimiz bitince remote için:git push origin :branch ismi
       */
-
-
+            // Oluşturulan branch main ile birleştirildi
     }
 }
