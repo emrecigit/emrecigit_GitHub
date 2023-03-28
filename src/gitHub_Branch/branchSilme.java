@@ -48,6 +48,6 @@ public class branchSilme {
       branch ile işimiz bitince local'in remote'u için:git branch -dr branch ismi veya origin/branc ismi
       branch ile işimiz bitince remote için:git push origin :branch ismi
       */
-            // Oluşturulan branch main ile birleştirildi
+            // Oluşturulan branch main ile birleştirildi ve sonrasında silindi
     }
 }
